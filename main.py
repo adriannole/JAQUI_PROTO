@@ -68,10 +68,12 @@ class SplashScreen(Screen):
         self.layout.add_widget(self.logo)
 
         self.label = Label(
-            text="TECMAN PDF GENERATOR V1.0",
-            font_size=20,
+            text="[b][color=#000000]TECMAN PDF GENERATOR V1.0[/color][/b]",
+            markup=True,
+            font_size=24,
             bold=True,
-            color=(2, 4, 5, 4),
+            halign="center",
+            valign="middle",
         )
         self.layout.add_widget(self.label)
 
