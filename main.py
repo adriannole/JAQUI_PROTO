@@ -22,6 +22,9 @@ from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.platypus import Frame, Paragraph
 from PyPDF2 import PdfReader, PdfWriter
+from kivy.core.window import Window
+
+Window.clearcolor = (0.95, 0.95, 0.95, 1)
 
 # Ruta de la plantilla PDF
 PDF_TEMPLATE = "templates/plantilla.pdf"
@@ -87,7 +90,7 @@ class MainScreen(Screen):
             self.bg_rect = Rectangle(source="images/background.png", size=self.size, pos=self.pos)
         self.bind(size=self.update_background, pos=self.update_background)
 
-        self.layout = BoxLayout(orientation="vertical", padding=20, spacing=15)
+        self.layout = BoxLayout(orientation="vertical", padding=20, spacing=25)
 
         scroll_view = ScrollView(size_hint=(1, 0.8))
         form_layout = GridLayout(cols=2, padding=20, spacing=10, size_hint_y=None)
@@ -132,7 +135,7 @@ class MainScreen(Screen):
         self.generate_button = Button(
             text="Generar PDF",
             font_size=14,
-            background_color=(0, 0.5, 0.8, 1),
+            background_color=(0, 0.6, 0.8, 1),
             size_hint=(0.5, 0.5)
         )
         self.generate_button.bind(on_press=self.check_fields_and_generate_pdf)
@@ -140,7 +143,7 @@ class MainScreen(Screen):
         self.clear_button = Button(
             text="Nuevo Registro",
             font_size=14,
-            background_color=(0.8, 0.2, 0.2, 1),
+            background_color=(0.9, 0.2, 0.2, 1),
             size_hint=(0.5, 0.5)
         )
         self.clear_button.bind(on_press=self.clear_fields)
