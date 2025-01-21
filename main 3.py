@@ -1,6 +1,5 @@
 import os
 import threading
-from datetime import datetime
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.textinput import TextInput
@@ -15,8 +14,7 @@ from kivy.graphics import Rectangle, Color
 from kivy.uix.progressbar import ProgressBar
 from kivy.metrics import dp
 from kivy.uix.scrollview import ScrollView
-from kivy.uix.spinner import Spinner
-from kivy.animation import Animation
+from kivy.core.window import Window
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import ParagraphStyle
@@ -27,82 +25,69 @@ from PyPDF2 import PdfReader, PdfWriter
 PDF_TEMPLATE = "templates/plantilla.pdf"
 GENERATED_FOLDER = "generated"
 
-# Listas de provincias y cantones
-PROVINCIAS_CANTONES = {
-    "Azuay": ["Cuenca", "Gualaceo", "Paute", "Nabón", "Girón", "Chordeleg", "Sígsig", "Sevilla de Oro", "Guachapala", "El Pan", "Oña", "Santa Isabel", "Pucará"],
-    "Bolívar": ["Guaranda", "San Miguel", "Chillanes", "Echeandía", "Caluma", "Las Naves", "Chimbo"],
-    "Cañar": ["Azogues", "Biblián", "Cañar", "La Troncal", "El Tambo", "Déleg", "Suscal"],
-    "Carchi": ["Tulcán", "Montúfar", "San Pedro de Huaca", "Mira", "Bolívar", "Espejo"],
-    "Chimborazo": ["Riobamba", "Guano", "Colta", "Chambo", "Alausí", "Guamote", "Cumandá", "Pallatanga", "Penipe"],
-    "Cotopaxi": ["Latacunga", "Pujilí", "Salcedo", "Saquisilí", "Sigchos", "La Maná"],
-    "El Oro": ["Machala", "Pasaje", "Santa Rosa", "Huaquillas", "Arenillas", "Zaruma", "Piñas", "Portovelo", "El Guabo", "Atahualpa", "Chilla", "Las Lajas"],
-    "Esmeraldas": ["Esmeraldas", "Atacames", "Quinindé", "San Lorenzo", "Muisne", "Rioverde", "Eloy Alfaro"],
-    "Galápagos": ["Puerto Ayora", "Puerto Villamil", "Puerto Baquerizo Moreno"],
-    "Guayas": ["Guayaquil", "Samborondón", "Daule", "Durán", "Milagro", "Playas", "Salitre", "Balao", "Naranjal", "El Triunfo", "Naranjito", "Balzar", "Colimes", "Pedro Carbo", "Yaguachi", "Simón Bolívar", "Isidro Ayora"],
-    "Imbabura": ["Ibarra", "Otavalo", "Cotacachi", "Antonio Ante", "Pimampiro", "Urcuquí"],
-    "Loja": ["Loja", "Catamayo", "Macará", "Paltas", "Saraguro", "Calvas", "Chaguarpamba", "Espíndola", "Gonzanamá", "Olmedo", "Pindal", "Puyango", "Quilanga", "Sozoranga", "Zapotillo"],
-    "Los Ríos": ["Babahoyo", "Quevedo", "Vinces", "Ventanas", "Puebloviejo", "Buena Fe", "Mocache", "Quinsaloma", "Urdaneta", "Palenque"],
-    "Manabí": ["Portoviejo", "Manta", "Chone", "Jipijapa", "Montecristi", "Sucre", "Pedernales", "Bahía de Caráquez", "Rocafuerte", "Santa Ana", "Tosagua", "Pichincha", "Bolívar", "El Carmen", "Jama", "Flavio Alfaro", "San Vicente"],
-    "Morona Santiago": ["Macas", "Gualaquiza", "Sucúa", "Logroño", "Palora", "Huamboya", "San Juan Bosco", "Taisha", "Tiwintza", "Limón Indanza", "Pablo Sexto"],
-    "Napo": ["Tena", "Archidona", "El Chaco", "Quijos", "Carlos Julio Arosemena Tola"],
-    "Orellana": ["Francisco de Orellana", "La Joya de los Sachas", "Loreto", "Aguarico"],
-    "Pastaza": ["Puyo", "Mera", "Santa Clara", "Arajuno"],
-    "Pichincha": ["Quito", "Cayambe", "Mejía", "Pedro Moncayo", "Rumiñahui", "Pedro Vicente Maldonado", "San Miguel de los Bancos"],
-    "Santa Elena": ["Santa Elena", "La Libertad", "Salinas"],
-    "Santo Domingo de los Tsáchilas": ["Santo Domingo", "La Concordia"],
-    "Sucumbíos": ["Lago Agrio", "Shushufindi", "Cuyabeno", "Putumayo", "Gonzalo Pizarro", "Sucumbíos"],
-    "Tungurahua": ["Ambato", "Baños", "Pelileo", "Píllaro", "Cevallos", "Tisaleo", "Mocha", "Quero"],
-    "Zamora Chinchipe": ["Zamora", "Yantzaza", "El Pangui", "Centinela del Cóndor", "Nangaritza", "Palanda", "Chinchipe", "Paquisha"]
-}
+from kivy.animation import Animation
 
 class SplashScreen(Screen):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-
+        
+        # Layout principal
         self.layout = BoxLayout(orientation="vertical", padding=10, spacing=20)
+        
+        # Logo en el centro
         self.logo = Image(source="images/logo.png", size_hint=(1, 0.7))
         self.layout.add_widget(self.logo)
-
+        
+        # Texto debajo del logo
         self.label = Label(
             text="TECMAN PDF GENERATOR",
             font_size=20,
             bold=True,
-            color=(1, 1, 1, 0),
+            color=(1, 1, 1, 0),  # Transparente al inicio
+            
         )
         self.layout.add_widget(self.label)
-
+        
         self.add_widget(self.layout)
+        
+        # Iniciar animación
         self.start_animation()
 
     def start_animation(self):
+        # Animación para el texto: cambiar opacidad y tamaño
         anim = Animation(color=(1, 1, 1, 1), font_size=40, duration=0.5)
         anim.start(self.label)
 
+# Pantalla principal de la aplicación
 class MainScreen(Screen):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
+        # Fondo con imagen
         with self.canvas.before:
-            self.bg_color = Color(1, 1, 1, 1)
+            self.bg_color = Color(1, 1, 1, 1)  # Blanco como base
             self.bg_rect = Rectangle(source="images/background.png", size=self.size, pos=self.pos)
         self.bind(size=self.update_background, pos=self.update_background)
 
+        # Configuración de la interfaz
         self.layout = BoxLayout(orientation="vertical", padding=20, spacing=15)
 
+        # ScrollView para formulario
         scroll_view = ScrollView(size_hint=(1, 0.8))
         form_layout = GridLayout(cols=2, padding=20, spacing=10, size_hint_y=None)
         form_layout.bind(minimum_height=form_layout.setter('height'))
 
+        # Campos a rellenar
         self.fields = {
-            "PLANILLA": TextInput(hint_text="Número de planilla N° UIO-XX", multiline=False, input_filter="int"),
-            "PROVINCIA": Spinner(text="Selecciona una provincia", values=list(PROVINCIAS_CANTONES.keys()), size_hint=(1, None), height=dp(30)),
-            "CANTÓN": Spinner(text="Selecciona un cantón", size_hint=(1, None), height=dp(30)),
+            "PLANILLA": TextInput(hint_text="Número de planilla N° UIO-XX", multiline=False),
+            "PROVINCIA": TextInput(hint_text="Escribe la provincia", multiline=False),
+            "CANTÓN": TextInput(hint_text="Escribe el cantón", multiline=False),
             "CLIENTE": TextInput(hint_text="Nombre del cliente", multiline=False),
             "CORREO": TextInput(hint_text="Correo electrónico", multiline=False),
             "TELÉFONO": TextInput(hint_text="Teléfono de contacto", multiline=False),
             "RAZÓN SOCIAL": TextInput(hint_text="Razón social o nombre", multiline=False),
             "DIRECCION": TextInput(hint_text="Escribe la dirección", multiline=False),
-            "FECHA": TextInput(hint_text="DD/MM/AAAA", multiline=False, readonly=True),
+            "FECHA": TextInput(hint_text="DD/MM/AAAA", multiline=False),
             "DEPARTAMENTO/UNIDAD": TextInput(hint_text="Departamento o unidad", multiline=False),
             "CONTADOR": TextInput(hint_text="Nombre del contador", multiline=False),
             "SERIE": TextInput(hint_text="Número de serie", multiline=False),
@@ -112,23 +97,18 @@ class MainScreen(Screen):
             "RESPONSABLE": TextInput(hint_text="Nombre del responsable", multiline=False),
         }
 
+        # Añadir campos al layout
         for label, input_field in self.fields.items():
             form_layout.add_widget(Label(text=label, size_hint=(0.3, None), height=dp(35), font_size=12, bold=True, color=(0, 0, 0, 1)))
-            if label == "FECHA":
-                date_layout = BoxLayout(orientation="horizontal")
-                date_layout.add_widget(input_field)
-                date_button = Button(text="Hoy", size_hint=(0.3, None), height=dp(35))
-                date_button.bind(on_press=self.set_today_date)
-                date_layout.add_widget(date_button)
-                form_layout.add_widget(date_layout)
-            else:
-                form_layout.add_widget(input_field)
-
-        self.fields["PROVINCIA"].bind(text=self.update_cantones)
+            input_field.size_hint = (0.7, None)
+            input_field.height = dp(35)
+            form_layout.add_widget(input_field)
 
         scroll_view.add_widget(form_layout)
 
+        # Botones con diseño minimalista
         button_layout = BoxLayout(size_hint=(1, 0.08), spacing=5)
+        
         self.generate_button = Button(
             text="Generar PDF",
             font_size=14,
@@ -136,7 +116,7 @@ class MainScreen(Screen):
             size_hint=(0.5, 0.5)
         )
         self.generate_button.bind(on_press=self.check_fields_and_generate_pdf)
-
+        
         self.clear_button = Button(
             text="Nuevo Registro",
             font_size=14,
@@ -144,7 +124,7 @@ class MainScreen(Screen):
             size_hint=(0.5, 0.5)
         )
         self.clear_button.bind(on_press=self.clear_fields)
-
+        
         button_layout.add_widget(self.generate_button)
         button_layout.add_widget(self.clear_button)
 
@@ -156,26 +136,18 @@ class MainScreen(Screen):
         self.bg_rect.size = self.size
         self.bg_rect.pos = self.pos
 
-    def update_cantones(self, spinner, provincia):
-        self.fields["CANTÓN"].values = PROVINCIAS_CANTONES.get(provincia, [])
-
-    def set_today_date(self, instance):
-        self.fields["FECHA"].text = datetime.now().strftime("%d/%m/%Y")
-
     def check_fields_and_generate_pdf(self, instance):
-        missing_fields = [field for field, input_field in self.fields.items() if not input_field.text and field not in ["OBSERVACIONES", "PARTE AFECTADA", "PARTE INSTALADA"]]
+        # Validar campos
+        missing_fields = [field for field, input_field in self.fields.items() if not input_field.text]
         if missing_fields:
-            self.show_popup("Aviso", f"Faltan los campos: {', '.join(missing_fields)}.")
-            return
+            self.show_popup("Aviso", f"Faltan los campos: {', '.join(missing_fields)}. Puede continuar exportando.")
 
-        if "@" not in self.fields["CORREO"].text:
-            self.show_popup("Error", "Correo no válido. Asegúrate de incluir '@'.")
-            return
-
+        # Iniciar animación de carga y generar el PDF
         self.show_loading_popup()
         threading.Thread(target=self.generate_pdf).start()
 
     def show_popup(self, title, message):
+        # Ventana emergente para mostrar mensajes
         content = BoxLayout(orientation="vertical", padding=10, spacing=10)
         content.add_widget(Label(text=message, font_size=14))
         close_button = Button(text="Cerrar", size_hint=(1, 0.3))
@@ -185,23 +157,29 @@ class MainScreen(Screen):
         popup.open()
 
     def show_loading_popup(self):
+        # Ventana emergente con barra de progreso
         content = BoxLayout(orientation="vertical", padding=10, spacing=10)
         progress_bar = ProgressBar(max=100, value=0)
         content.add_widget(progress_bar)
         self.loading_popup = Popup(title="Generando PDF", content=content, size_hint=(0.5, 0.5), auto_dismiss=False)
         self.loading_popup.open()
 
+        # Simular progreso
         def update_progress(dt):
             progress_bar.value += 5
             if progress_bar.value >= 100:
                 Clock.unschedule(update_progress)
-
+        
         Clock.schedule_interval(update_progress, 0.1)
 
     def generate_pdf(self):
+        # Crear un canvas temporal para escribir los datos
         c = canvas.Canvas(f"{GENERATED_FOLDER}/temp_canvas.pdf", pagesize=letter)
+
+        # Configurar tipo y tamaño de letra para campos simples
         c.setFont("Helvetica", 6.5)
 
+        # Coordenadas específicas para cada campo
         coordinates = {
             "PLANILLA": (504, 655),
             "PROVINCIA": (330, 576),
@@ -215,17 +193,18 @@ class MainScreen(Screen):
             "DEPARTAMENTO/UNIDAD": (396, 596),
             "CONTADOR": (396, 549),
             "SERIE": (458, 549),
-            "OBSERVACIONES": (72, 349, 494, 90),
-            "PARTE AFECTADA": (69, 249, 200, 75),
-            "PARTE INSTALADA": (69, 179, 200, 75),
+            "OBSERVACIONES": (72, 349, 494, 90),  # (x, y, ancho, alto)
+            "PARTE AFECTADA": (69, 249, 200, 75),  # (x, y, ancho, alto)
+            "PARTE INSTALADA": (69, 179, 200, 75),  # (x, y, ancho, alto)
             "RESPONSABLE": (198, 122),
         }
 
+        # Crear estilo de párrafo para campos largos
         paragraph_style = ParagraphStyle(
             "CustomParagraph",
             fontName="Helvetica",
             fontSize=7,
-            leading=13,
+            leading=13,  # Espaciado entre líneas
         )
 
         # Escribir los valores en las posiciones con ajuste de texto como párrafo
@@ -245,6 +224,7 @@ class MainScreen(Screen):
 
         c.save()
 
+        # Crear archivo final con el nombre según el campo "RAZÓN SOCIAL"
         razon_social = self.fields["RAZÓN SOCIAL"].text or "sin_nombre"
         output_file = f"{GENERATED_FOLDER}/{razon_social}.pdf"
 
@@ -259,6 +239,7 @@ class MainScreen(Screen):
         with open(output_file, "wb") as f:
             writer.write(f)
 
+        # Cerrar animación de carga y confirmar éxito
         Clock.schedule_once(lambda dt: self.loading_popup.dismiss(), 0)
         Clock.schedule_once(lambda dt: self.show_popup("Éxito", f"PDF generado: {output_file}"), 0)
 
@@ -272,6 +253,7 @@ class PDFGeneratorApp(App):
         sm.add_widget(SplashScreen(name="splash"))
         sm.add_widget(MainScreen(name="main"))
 
+        # Cambiar a la pantalla principal después de 3 segundos
         def switch_to_main(*args):
             sm.current = "main"
 
@@ -279,6 +261,7 @@ class PDFGeneratorApp(App):
         return sm
 
 if __name__ == "__main__":
+    # Crear carpetas si no existen
     os.makedirs("templates", exist_ok=True)
     os.makedirs("generated", exist_ok=True)
     PDFGeneratorApp().run()
