@@ -28,7 +28,7 @@ from kivy.uix.dropdown import DropDown
 Window.clearcolor = (0.95, 0.95, 0.95, 1)
 
 # Ruta de la plantilla PDF
-PDF_TEMPLATE = "templates/plantilla.pdf"
+PDF_TEMPLATE = "templates/PLANILLA_GLOBAL.pdf"
 GENERATED_FOLDER = "generated"
 
 # Listas de provincias y cantones
@@ -104,19 +104,19 @@ class MainScreen(Screen):
             "PLANILLA": TextInput(hint_text="Número de planilla N° UIO-XX", multiline=False, input_filter="int"),
             "PROVINCIA": Spinner(text="Selecciona una provincia", size_hint=(1, None), height=dp(30)),
             "CANTÓN": Spinner(text="Selecciona un cantón", size_hint=(1, None), height=dp(30)),
-            "CLIENTE": TextInput(hint_text="Nombre del cliente", multiline=False),
+            "USUARIO ": TextInput(hint_text="Usuario responsable", multiline=False),
             "CORREO": TextInput(hint_text="Correo electrónico", multiline=False),
             "TELÉFONO": TextInput(hint_text="Teléfono de contacto", multiline=False),
             "RAZÓN SOCIAL": TextInput(hint_text="Razón social o nombre", multiline=False),
             "DIRECCION": TextInput(hint_text="Escribe la dirección", multiline=False),
-            "FECHA": TextInput(hint_text="DD/MM/AAAA", multiline=False, readonly=True),
-            "DEPARTAMENTO/UNIDAD": TextInput(hint_text="Departamento o unidad", multiline=False),
+            "FECHA": TextInput(hint_text="DD/MM/AAAA", multiline=False, readonly=False),
+            "DEPARTAMENTO/PISO": TextInput(hint_text="Departamento o unidad", multiline=False),
             "CONTADOR": TextInput(hint_text="Nombre del contador", multiline=False),
             "SERIE": TextInput(hint_text="Número de serie", multiline=False),
             "OBSERVACIONES": TextInput(hint_text="Observaciones generales", multiline=True),
             "PARTE AFECTADA": TextInput(hint_text="Descripción de la parte afectada", multiline=True),
             "PARTE INSTALADA": TextInput(hint_text="Descripción de la parte instalada", multiline=True),
-            "RESPONSABLE": TextInput(hint_text="Nombre del responsable", multiline=False),
+            "TECNICO RESPONSABLE": TextInput(hint_text="Nombre del tecnico responsable", multiline=False),
         }
 
         for label, input_field in self.fields.items():
@@ -134,11 +134,14 @@ class MainScreen(Screen):
         self.fields["PROVINCIA"].values = ()
         self.province_dropdown = DropDown()
         self.province_dropdown.background_normal = ''
-        self.province_dropdown.background_color = (0.9, 0.9, 1, 0.5)
+        self.province_dropdown.background_color = (0.1, 0.1, 0.2, 1)
         grid = GridLayout(cols=2, spacing=5, padding=5, size_hint_y=None)
         grid.bind(minimum_height=grid.setter('height'))
         for prov in PROVINCIAS_CANTONES.keys():
             btn = Button(text=prov, size_hint_y=None, height=dp(30))
+            btn.background_normal = ''
+            btn.background_color = (0.1, 0.1, 0.2, 1)
+            btn.color = (1, 1, 1, 1)
             btn.bind(on_release=lambda btn: self.province_dropdown.select(btn.text))
             grid.add_widget(btn)
         self.province_dropdown.add_widget(grid)
@@ -146,6 +149,12 @@ class MainScreen(Screen):
         self.province_dropdown.bind(
             on_select=lambda instance, x: setattr(self.fields["PROVINCIA"], 'text', x)
         )
+
+        with self.province_dropdown.canvas.before:
+            Color(0.1, 0.1, 0.2, 1)
+            self.dropdown_bg_rect = Rectangle()
+
+        self.province_dropdown.bind(size=self.update_dropdown_bg, pos=self.update_dropdown_bg)
 
         self.fields["PROVINCIA"].bind(text=self.update_cantones)
 
@@ -229,19 +238,19 @@ class MainScreen(Screen):
             "PLANILLA": (504, 655),
             "PROVINCIA": (330, 576),
             "CANTÓN": (458, 576),
-            "CLIENTE": (390, 123),
+            "USUARIO ": (390, 123),
             "CORREO": (398, 627),
             "TELÉFONO": (396, 612),
             "RAZÓN SOCIAL": (130, 627),
             "DIRECCION": (130, 612),
             "FECHA": (130, 596),
-            "DEPARTAMENTO/UNIDAD": (396, 596),
+            "DEPARTAMENTO/PISO": (396, 596),
             "CONTADOR": (396, 549),
             "SERIE": (458, 549),
             "OBSERVACIONES": (72, 349, 494, 90),
             "PARTE AFECTADA": (69, 249, 200, 75),
             "PARTE INSTALADA": (69, 179, 200, 75),
-            "RESPONSABLE": (198, 122),
+            "TECNICO RESPONSABLE": (198, 122),
         }
 
         paragraph_style = ParagraphStyle(
@@ -288,6 +297,10 @@ class MainScreen(Screen):
     def clear_fields(self, instance):
         for input_field in self.fields.values():
             input_field.text = ""
+
+    def update_dropdown_bg(self, *args):
+        self.dropdown_bg_rect.size = self.province_dropdown.size
+        self.dropdown_bg_rect.pos = self.province_dropdown.pos
 
 class PDFGeneratorApp(App):
     def build(self):
