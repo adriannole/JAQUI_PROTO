@@ -23,6 +23,7 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.platypus import Frame, Paragraph
 from PyPDF2 import PdfReader, PdfWriter
 from kivy.core.window import Window
+from kivy.uix.dropdown import DropDown
 
 Window.clearcolor = (0.95, 0.95, 0.95, 1)
 
@@ -67,10 +68,10 @@ class SplashScreen(Screen):
         self.layout.add_widget(self.logo)
 
         self.label = Label(
-            text="TECMAN PDF GENERATOR",
+            text="TECMAN PDF GENERATOR V1.0",
             font_size=20,
             bold=True,
-            color=(1, 1, 1, 0),
+            color=(2, 4, 5, 4),
         )
         self.layout.add_widget(self.label)
 
@@ -98,7 +99,7 @@ class MainScreen(Screen):
 
         self.fields = {
             "PLANILLA": TextInput(hint_text="Número de planilla N° UIO-XX", multiline=False, input_filter="int"),
-            "PROVINCIA": Spinner(text="Selecciona una provincia", values=list(PROVINCIAS_CANTONES.keys()), size_hint=(1, None), height=dp(30)),
+            "PROVINCIA": Spinner(text="Selecciona una provincia", size_hint=(1, None), height=dp(30)),
             "CANTÓN": Spinner(text="Selecciona un cantón", size_hint=(1, None), height=dp(30)),
             "CLIENTE": TextInput(hint_text="Nombre del cliente", multiline=False),
             "CORREO": TextInput(hint_text="Correo electrónico", multiline=False),
@@ -126,6 +127,20 @@ class MainScreen(Screen):
                 form_layout.add_widget(date_layout)
             else:
                 form_layout.add_widget(input_field)
+
+        self.fields["PROVINCIA"].values = ()
+        self.province_dropdown = DropDown()
+        grid = GridLayout(cols=2, spacing=5, padding=5, size_hint_y=None)
+        grid.bind(minimum_height=grid.setter('height'))
+        for prov in PROVINCIAS_CANTONES.keys():
+            btn = Button(text=prov, size_hint_y=None, height=dp(30))
+            btn.bind(on_release=lambda btn: self.province_dropdown.select(btn.text))
+            grid.add_widget(btn)
+        self.province_dropdown.add_widget(grid)
+        self.fields["PROVINCIA"].bind(on_release=self.province_dropdown.open)
+        self.province_dropdown.bind(
+            on_select=lambda instance, x: setattr(self.fields["PROVINCIA"], 'text', x)
+        )
 
         self.fields["PROVINCIA"].bind(text=self.update_cantones)
 
