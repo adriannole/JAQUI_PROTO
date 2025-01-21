@@ -68,7 +68,7 @@ class SplashScreen(Screen):
         self.layout.add_widget(self.logo)
 
         self.label = Label(
-            text="[b][color=#00008B]TECMAN PDF GENERATOR V1.0[/color][/b]",
+            text="[b][color=#000000]TECMAN PDF GENERATOR V1.0[/color][/b]",
             markup=True,
             font_size=24,
             bold=True,
@@ -134,7 +134,7 @@ class MainScreen(Screen):
         self.fields["PROVINCIA"].values = ()
         self.province_dropdown = DropDown()
         self.province_dropdown.background_normal = ''
-        self.province_dropdown.background_color = (0.9, 0.9, 1, 1)
+        self.province_dropdown.background_color = (0.9, 0.9, 1, 0.5)
         grid = GridLayout(cols=2, spacing=5, padding=5, size_hint_y=None)
         grid.bind(minimum_height=grid.setter('height'))
         for prov in PROVINCIAS_CANTONES.keys():
