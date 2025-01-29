@@ -1,0 +1,1110 @@
+([('TEC_PLANILLA.exe',
+   'C:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\build\\main\\TEC_PLANILLA.exe',
+   'EXECUTABLE'),
+  ('python310.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\python310.dll',
+   'BINARY'),
+  ('pywin32_system32\\pywintypes310.dll',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\pywin32_system32\\pywintypes310.dll',
+   'BINARY'),
+  ('pywin32_system32\\pythoncom310.dll',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\pywin32_system32\\pythoncom310.dll',
+   'BINARY'),
+  ('select.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('markupsafe\\_speedups.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\markupsafe\\_speedups.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('win32\\win32api.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\win32\\win32api.pyd',
+   'EXTENSION'),
+  ('win32com\\shell\\shell.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\win32comext\\shell\\shell.pyd',
+   'EXTENSION'),
+  ('win32\\win32trace.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\win32\\win32trace.pyd',
+   'EXTENSION'),
+  ('Pythonwin\\win32ui.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\Pythonwin\\win32ui.pyd',
+   'EXTENSION'),
+  ('win32\\_win32sysloader.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\win32\\_win32sysloader.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\PIL\\_webp.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\PIL\\_imagingtk.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\PIL\\_imagingcms.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingmath.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\PIL\\_imagingmath.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\PIL\\_imaging.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingft.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\PIL\\_imagingft.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\compiler.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\compiler.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\_event.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\_event.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\lib\\gstplayer\\_gstplayer.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\lib\\gstplayer\\_gstplayer.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\stencil_instructions.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\stencil_instructions.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\scissor_instructions.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\scissor_instructions.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\window\\_window_sdl2.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\core\\window\\_window_sdl2.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\gl_instructions.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\gl_instructions.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\cgl_backend\\cgl_gl.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_gl.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\boxshadow.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\boxshadow.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\cgl_backend\\cgl_sdl2.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_sdl2.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\instructions.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\instructions.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\vertex_instructions.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\vertex_instructions.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\window\\window_info.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\core\\window\\window_info.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\cgl_backend\\cgl_glew.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_glew.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\shader.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\shader.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\cgl_backend\\cgl_mock.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_mock.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\vertex.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\vertex.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\cgl_backend\\cgl_debug.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_debug.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\clipboard\\_clipboard_sdl2.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\core\\clipboard\\_clipboard_sdl2.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\texture.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\texture.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\opengl_utils.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\opengl_utils.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\audio\\audio_sdl2.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\core\\audio\\audio_sdl2.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\text\\_text_sdl2.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\core\\text\\_text_sdl2.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\svg.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\svg.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\weakproxy.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\weakproxy.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\text\\text_layout.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\core\\text\\text_layout.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\cgl.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\cgl.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\tesselator.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\tesselator.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\context_instructions.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\context_instructions.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('win32\\win32gui.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\win32\\win32gui.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\transformation.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\transformation.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\properties.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\properties.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\fbo.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\fbo.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\buffer.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\buffer.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('win32\\win32file.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\win32\\win32file.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\context.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\context.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\image\\_img_sdl2.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\core\\image\\_img_sdl2.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\vbo.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\vbo.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\opengl.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\graphics\\opengl.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('kivy\\_metrics.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\_metrics.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\_clock.cp310-win_amd64.pyd',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\_clock.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('libcrypto-1_1.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libffi-7.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\libffi-7.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('Pythonwin\\mfc140u.dll',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\Pythonwin\\mfc140u.dll',
+   'BINARY'),
+  ('SDL2_image.dll',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\share\\sdl2\\bin\\SDL2_image.dll',
+   'BINARY'),
+  ('SDL2.dll',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\share\\sdl2\\bin\\SDL2.dll',
+   'BINARY'),
+  ('glew32.dll',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\share\\glew\\bin\\glew32.dll',
+   'BINARY'),
+  ('SDL2_mixer.dll',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\share\\sdl2\\bin\\SDL2_mixer.dll',
+   'BINARY'),
+  ('SDL2_ttf.dll',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\share\\sdl2\\bin\\SDL2_ttf.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-crt-multibyte-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-multibyte-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-private-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-private-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('images\\background.png',
+   'C:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\images\\background.png',
+   'DATA'),
+  ('images\\loading.gif',
+   'C:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\images\\loading.gif',
+   'DATA'),
+  ('images\\logo.png',
+   'C:\\Users\\Adrian Nole\\Documents\\GitHub\\JAQUI_PROTO\\images\\logo.png',
+   'DATA'),
+  ('images\\tec.ico',
+   'C:\\Users\\Adrian Nole\\Documents\\GitHub\\JAQUI_PROTO\\images\\tec.ico',
+   'DATA'),
+  ('templates\\PLANILLA_GLOBAL.pdf',
+   'C:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\templates\\PLANILLA_GLOBAL.pdf',
+   'DATA'),
+  ('templates\\plantilla.pdf',
+   'C:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\templates\\plantilla.pdf',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\build\\main\\base_library.zip',
+   'DATA'),
+  ('kivy_install\\modules\\touchring.py',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\touchring.py',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\DejaVuSans.ttf',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\fonts\\DejaVuSans.ttf',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\Roboto-Regular.ttf',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\fonts\\Roboto-Regular.ttf',
+   'DATA'),
+  ('kivy_install\\modules\\joycursor.py',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\joycursor.py',
+   'DATA'),
+  ('kivy_install\\modules\\cursor.py',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\cursor.py',
+   'DATA'),
+  ('kivy_install\\data\\images\\testpattern.png',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\images\\testpattern.png',
+   'DATA'),
+  ('kivy_install\\data\\images\\background.jpg',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\images\\background.jpg',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-128.png',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-128.png',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\recorder.cpython-310.pyc',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__pycache__\\recorder.cpython-310.pyc',
+   'DATA'),
+  ('kivy_install\\data\\images\\defaulttheme-0.png',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\images\\defaulttheme-0.png',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\webdebugger.cpython-310.pyc',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__pycache__\\webdebugger.cpython-310.pyc',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\azerty.json',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\keyboards\\azerty.json',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-256.png',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-256.png',
+   'DATA'),
+  ('kivy_install\\modules\\recorder.py',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\recorder.py',
+   'DATA'),
+  ('kivy_install\\data\\images\\image-loading.gif',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\images\\image-loading.gif',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-512.png',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-512.png',
+   'DATA'),
+  ('kivy_install\\modules\\monitor.py',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\monitor.py',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\monitor.cpython-310.pyc',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__pycache__\\monitor.cpython-310.pyc',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\en_US.json',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\keyboards\\en_US.json',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\qwertz.json',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\keyboards\\qwertz.json',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\_webdebugger.cpython-310.pyc',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__pycache__\\_webdebugger.cpython-310.pyc',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\fr_CH.json',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\keyboards\\fr_CH.json',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-64.ico',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-64.ico',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\default.fs',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\glsl\\default.fs',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\default.vs',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\glsl\\default.vs',
+   'DATA'),
+  ('kivy_install\\data\\images\\cursor.png',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\images\\cursor.png',
+   'DATA'),
+  ('kivy_install\\modules\\webdebugger.py',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\webdebugger.py',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\console.cpython-310.pyc',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__pycache__\\console.cpython-310.pyc',
+   'DATA'),
+  ('kivy_install\\data\\images\\defaultshape.png',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\images\\defaultshape.png',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-24.png',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-24.png',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-64.png',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-64.png',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\cursor.cpython-310.pyc',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__pycache__\\cursor.cpython-310.pyc',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\screen.cpython-310.pyc',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__pycache__\\screen.cpython-310.pyc',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\RobotoMono-Regular.ttf',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\fonts\\RobotoMono-Regular.ttf',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\Roboto-Italic.ttf',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\fonts\\Roboto-Italic.ttf',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\qwerty.json',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\keyboards\\qwerty.json',
+   'DATA'),
+  ('kivy_install\\modules\\console.py',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\console.py',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-16.png',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-16.png',
+   'DATA'),
+  ('kivy_install\\modules\\keybinding.py',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\keybinding.py',
+   'DATA'),
+  ('kivy_install\\modules\\_webdebugger.py',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\_webdebugger.py',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\showborder.cpython-310.pyc',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__pycache__\\showborder.cpython-310.pyc',
+   'DATA'),
+  ('kivy_install\\data\\style.kv',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\style.kv',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\touchring.cpython-310.pyc',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__pycache__\\touchring.cpython-310.pyc',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\de_CH.json',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\keyboards\\de_CH.json',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\Roboto-Bold.ttf',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\fonts\\Roboto-Bold.ttf',
+   'DATA'),
+  ('kivy_install\\modules\\screen.py',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\screen.py',
+   'DATA'),
+  ('kivy_install\\modules\\__init__.py',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__init__.py',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\Roboto-BoldItalic.ttf',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\fonts\\Roboto-BoldItalic.ttf',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\default.png',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\glsl\\default.png',
+   'DATA'),
+  ('kivy_install\\data\\images\\defaulttheme.atlas',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\images\\defaulttheme.atlas',
+   'DATA'),
+  ('kivy_install\\modules\\inspector.py',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\inspector.py',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-48.png',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-48.png',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\inspector.cpython-310.pyc',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__pycache__\\inspector.cpython-310.pyc',
+   'DATA'),
+  ('kivy_install\\modules\\showborder.py',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\showborder.py',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\es_ES.json',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\keyboards\\es_ES.json',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\joycursor.cpython-310.pyc',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__pycache__\\joycursor.cpython-310.pyc',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-32.png',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-32.png',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\header.vs',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\glsl\\header.vs',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\keybinding.cpython-310.pyc',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__pycache__\\keybinding.cpython-310.pyc',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\de.json',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\keyboards\\de.json',
+   'DATA'),
+  ('kivy_install\\data\\settings_kivy.json',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\settings_kivy.json',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\header.fs',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\glsl\\header.fs',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\__init__.cpython-310.pyc',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\modules\\__pycache__\\__init__.cpython-310.pyc',
+   'DATA'),
+  ('kivy_install\\data\\images\\image-loading.zip',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\kivy\\data\\images\\image-loading.zip',
+   'DATA'),
+  ('certifi\\py.typed',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\math.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\html5_polyglot\\math.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-white\\pretty.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-white\\pretty.css',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\italic-field-names.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\html5_polyglot\\italic-field-names.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\medium-black\\pretty.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\medium-black\\pretty.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-black\\pretty.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-black\\pretty.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk4.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk4.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsn.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsn.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\small-white\\framing.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\small-white\\framing.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\print.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\print.css',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\template.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\html5_polyglot\\template.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\opera.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\opera.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomfrk.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isomfrk.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\mmlextra-wide.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\mmlextra-wide.txt',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\plain.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\html5_polyglot\\plain.css',
+   'DATA'),
+  ('docutils\\docutils.conf',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\docutils.conf',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isobox.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isobox.txt',
+   'DATA'),
+  ('docutils\\writers\\latex2e\\xelatex.tex',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\latex2e\\xelatex.tex',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsa.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsa.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\README.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\README.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\s5-core.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\s5-core.css',
+   'DATA'),
+  ('docutils\\writers\\latex2e\\titlepage.tex',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\latex2e\\titlepage.tex',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isolat1.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isolat1.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsb.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsb.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\framing.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\framing.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomfrk-wide.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isomfrk-wide.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk2.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk2.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\medium-white\\pretty.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\medium-white\\pretty.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\s5defs.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\s5defs.txt',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\tuftig.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\html5_polyglot\\tuftig.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\xhtml1-lat1.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\xhtml1-lat1.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isocyr1.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isocyr1.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\slides.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\slides.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\README.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\README.txt',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\minimal.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\html5_polyglot\\minimal.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isonum.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isonum.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomscr-wide.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isomscr-wide.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\small-white\\pretty.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\small-white\\pretty.css',
+   'DATA'),
+  ('docutils\\writers\\latex2e\\docutils.sty',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\latex2e\\docutils.sty',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\slides.js',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\slides.js',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-black\\__base__',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-black\\__base__',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsr.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsr.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isotech.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isotech.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk1.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk1.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsc.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsc.txt',
+   'DATA'),
+  ('docutils\\writers\\pep_html\\template.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\pep_html\\template.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\mmlextra.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\mmlextra.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomopf.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isomopf.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomscr.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isomscr.txt',
+   'DATA'),
+  ('docutils\\writers\\pep_html\\pep.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\pep_html\\pep.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\xhtml1-special.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\xhtml1-special.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\medium-white\\framing.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\medium-white\\framing.css',
+   'DATA'),
+  ('docutils\\writers\\latex2e\\default.tex',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\latex2e\\default.tex',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk4-wide.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk4-wide.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk3.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk3.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\small-black\\pretty.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\small-black\\pretty.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\medium-black\\__base__',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\medium-black\\__base__',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isolat2.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isolat2.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\mmlalias.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\mmlalias.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\small-black\\__base__',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\small-black\\__base__',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isopub.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isopub.txt',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\responsive.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\html5_polyglot\\responsive.css',
+   'DATA'),
+  ('docutils\\writers\\latex2e\\titlingpage.tex',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\latex2e\\titlingpage.tex',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-white\\framing.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-white\\framing.css',
+   'DATA'),
+  ('docutils\\writers\\html4css1\\html4css1.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\html4css1\\html4css1.css',
+   'DATA'),
+  ('docutils\\writers\\html4css1\\template.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\html4css1\\template.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomopf-wide.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isomopf-wide.txt',
+   'DATA'),
+  ('docutils\\writers\\odf_odt\\styles.odt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\odf_odt\\styles.odt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\pretty.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\pretty.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamso.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamso.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\outline.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\outline.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isodia.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isodia.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\xhtml1-symbol.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\xhtml1-symbol.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isocyr2.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isocyr2.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-black\\framing.css',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-black\\framing.css',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\WHEEL',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\WHEEL',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\top_level.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\top_level.txt',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\INSTALLER',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\LICENSE.txt',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\METADATA',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\METADATA',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info\\RECORD',
+   'c:\\Users\\Adrian '
+   'Nole\\Documents\\GitHub\\JAQUI_PROTO\\.venv\\lib\\site-packages\\MarkupSafe-3.0.2.dist-info\\RECORD',
+   'DATA')],)

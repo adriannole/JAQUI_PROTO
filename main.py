@@ -42,7 +42,7 @@ PROVINCIAS_CANTONES = {
     "El Oro": ["Machala", "Pasaje", "Santa Rosa", "Huaquillas", "Arenillas", "Zaruma", "Piñas", "Portovelo", "El Guabo", "Atahualpa", "Chilla", "Las Lajas"],
     "Esmeraldas": ["Esmeraldas", "Atacames", "Quinindé", "San Lorenzo", "Muisne", "Rioverde", "Eloy Alfaro"],
     "Galápagos": ["Puerto Ayora", "Puerto Villamil", "Puerto Baquerizo Moreno"],
-    "Guayas": ["Guayaquil", "Samborondón", "Daule", "Durán", "Milagro", "Playas", "Salitre", "Balao", "Naranjal", "El Triunfo", "Naranjito", "Balzar", "Colimes", "Pedro Carbo", "Yaguachi", "Simón Bolívar", "Isidro Ayora"],
+    "Guayas": ["Guayaquil", "Samborondón", "Daule", "Durán", "Milagro", "Playas", "Salitre", "Balao", "Naranjal", "El Triunfo", "Naranjito", "Balzar", "Colimes", "Pedro Carbo", "Yaguachi", "Simón Bolívar", "Isidro Ayora", "Bucay", "El Empalme"],
     "Imbabura": ["Ibarra", "Otavalo", "Cotacachi", "Antonio Ante", "Pimampiro", "Urcuquí"],
     "Loja": ["Loja", "Catamayo", "Macará", "Paltas", "Saraguro", "Calvas", "Chaguarpamba", "Espíndola", "Gonzanamá", "Olmedo", "Pindal", "Puyango", "Quilanga", "Sozoranga", "Zapotillo"],
     "Los Ríos": ["Babahoyo", "Quevedo", "Vinces", "Ventanas", "Puebloviejo", "Buena Fe", "Mocache", "Quinsaloma", "Urdaneta", "Palenque"],
@@ -52,7 +52,7 @@ PROVINCIAS_CANTONES = {
     "Orellana": ["Francisco de Orellana", "La Joya de los Sachas", "Loreto", "Aguarico"],
     "Pastaza": ["Puyo", "Mera", "Santa Clara", "Arajuno"],
     "Pichincha": ["Quito", "Cayambe", "Mejía", "Pedro Moncayo", "Rumiñahui", "Pedro Vicente Maldonado", "San Miguel de los Bancos"],
-    "Santa Elena": ["Santa Elena", "La Libertad", "Salinas"],
+    "Santa Elena": ["Santa Elena", "La Libertad", "Salinas", "Manglaralto"],
     "Santo Domingo de los Tsáchilas": ["Santo Domingo", "La Concordia"],
     "Sucumbíos": ["Lago Agrio", "Shushufindi", "Cuyabeno", "Putumayo", "Gonzalo Pizarro", "Sucumbíos"],
     "Tungurahua": ["Ambato", "Baños", "Pelileo", "Píllaro", "Cevallos", "Tisaleo", "Mocha", "Quero"],
@@ -277,7 +277,7 @@ class MainScreen(Screen):
 
         c.save()
 
-        razon_social = self.fields["RAZÓN SOCIAL"].text or "sin_nombre"
+        razon_social = self.fields["SERIE"].text or "SIN_Nro_Serie"
         output_file = f"{GENERATED_FOLDER}/{razon_social}.pdf"
 
         reader = PdfReader(PDF_TEMPLATE)
